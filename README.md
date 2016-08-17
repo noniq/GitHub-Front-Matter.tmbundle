@@ -1,9 +1,9 @@
 # Markdown-Front-Matter.tmbundle
+
 Adds support for YAML front matter in Markdown files to TextMate.
 
-**WARNING: This bundle does not work yet!** (Some other bundles need to be updated first.)
-
 ## Features
+
 - Highlights front matter as YAML.
 - Strips front matter from document before running the markdown processor.
 
