@@ -14,8 +14,4 @@ Note that this is only an extension to existing Markdown bundles, not a bundle h
 
 ## Installation
 
-```bash
-mkdir -p ~/Library/Application\ Support/Avian/Bundles
-cd ~/Library/Application\ Support/Avian/Bundles
-git clone https://github.com/noniq/Markdown-Front-Matter.tmbundle
-```
+In TextMate go to _Preferences → Bundles_ and enable _Markdown (Front Matter)_.
