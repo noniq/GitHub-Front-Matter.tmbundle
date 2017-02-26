@@ -18,7 +18,7 @@
 			<key>contentName</key>
 			<string>text.html.markdown.yaml</string>
 			<key>end</key>
-			<string>(^|\G)---\s*\n</string>
+			<string>(^|\G)(---|\.\.\.)\s*\n</string>
 			<key>name</key>
 			<string>markup.raw.block.yaml</string>
 			<key>patterns</key>
