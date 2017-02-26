@@ -14,11 +14,11 @@
 			<key>begin</key>
 			<string>\A---\s*\n</string>
 			<key>comment</key>
-			<string>This matches a YAML frontmatter block at the beginning of the document.</string>
+			<string>This matches a YAML frontmatter block at the beginning of the document. The block ends with `---` or `...` (the latter mainly used by Pandoc).</string>
 			<key>contentName</key>
 			<string>text.html.markdown.yaml</string>
 			<key>end</key>
-			<string>(^|\G)---\s*\n</string>
+			<string>(^|\G)(---|\.\.\.)\s*\n</string>
 			<key>name</key>
 			<string>markup.raw.block.yaml</string>
 			<key>patterns</key>
